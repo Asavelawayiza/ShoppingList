@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="test/shopping-list.test.js" charset="utf-8"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>Shopping list</h1>
+
+	<div class="error">  </div>
+
+
+	<div class="row">
+		<div col="12">
+			<div class="topic-List">
+				Topic word for the list:
+				<input type="text" class="topicList" name="list" placeholder="Topic word for list.">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div col="12">
+			<div class="total-budget">
+				Total budget:
+				<input type="text" class="totalBudget" name="budget" placeholder="Your total budget" value="">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div col="12">
+			<div class="myList">
+				Enter List:
+					<input type="text" class="List" name="Grocery" placeholder="write your List" value="">
+					<td> R<input class="Price" type="number" placeholder="eg. 2.50"></td>
+
+			</div>
+
+
+			<div class="row">
+				<div col="12">
+					<div class="Bts">
+						<button class="addButton" type="button" name="button">Add</button>
+					</div>
+				</div>
+			</div>
+
+			<label for="">Total</label>
+			<td> R<input class="totalPrice" type="number" placeholder="" ></td>
+			
+			 <label for="">Change</label>
+			 <td> R<input class="ChangeTotal" type="number" placeholder=""></td> 
+
+
+				<div class="row">
+						<div col="12">
+							<div class="Bts">
+			<button class="updateButton" type="button" name="button">Update</button>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="showList"> </div>
+</body>
+<script src="shopping-list.js"></script>
+<script src="shopping-list-dom.js"></script>
+</html>
